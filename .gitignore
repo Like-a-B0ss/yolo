@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Modelos e resultados gerados
+*.pt
+backend/runs/
+backend/output.jpg
+backend/detect-response.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Ambiente e editores
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
